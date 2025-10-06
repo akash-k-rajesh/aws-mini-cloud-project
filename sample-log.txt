@@ -1,0 +1,5 @@
+[ec2-user@ip-172-31-35-218 automation_test]$ cat logs/check_permission.log
+total 4
+-rw-r--r--. 1 ec2-user ec2-user 20 Oct  5 16:26 test.txt
+script completed on Sun Oct  5 16:26:05 UTC 2025
+[ec2-user@ip-172-31-35-218 automation_test]$
