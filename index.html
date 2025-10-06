@@ -1,8 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AWS Mini-Cloud Project</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #4b79a1, #283e51);
+      color: #fff;
+      text-align: center;
+    }
 
-  <h2>📂 Project Repository</h2>
-  <a class="button" href="https://github.com/akash-k-rajesh/aws-mini-cloud-project/" target="_blank">View on GitHub</a>
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 28px;
+      font-size: 1.2rem;
+      color: #283e51;
+      background-color: #ffd700;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .button:hover {
+      background-color: #ffc107;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2>📂 Project Repository</h2>
+    <a class="button" href="https://github.com/akash-k-rajesh/aws-mini-cloud-project/" target="_blank">View on GitHub</a>
+  </div>
 </body>
 </html>
